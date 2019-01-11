@@ -1,0 +1,168 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+header
+{ 
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 100, 0.5)), url(../myImage/meetup3.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.nav{
+        background: white;
+        display: flex;
+        box-shadow: 0px 2px 6px #000000;
+        margin-bottom: 5px; 
+        margin-right: 0px;
+        background-color: #6B0F1A; 
+}
+
+h4{
+    color: #fff;
+}
+
+.biodata{
+    position: relative;
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+    padding: 40px;
+    width: 300px;
+    height: 400px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.biodata h1{
+    margin: 0 0 20px 0;
+    font-weight: 300;
+    font-size: 28px;
+    color: white;
+    text-align: center;
+}
+
+input[type="text"],
+input[type="password"]{
+    display:block;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    padding: 4px;
+    width: 350px;
+    height: 32px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #aaa;
+    border-radius: 5px;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    transition: 0.2 ease;
+}
+
+input[type="submit"]{
+    margin-bottom: 28px;
+    width: 120px;
+    height: 32px;
+    background: #f44336;
+    border: none;
+    border-radius: 2px;
+    color: #000;
+    font-family: sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    transition: 0.2 ease;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover,
+input[type="submit"]:focus{
+    color: #fff;
+    background: #ff5722;
+    transition: 0.2 ease;
+}
+
+
+.logo
+{
+    margin: 0px 0px;
+    height: 50px;
+    padding-left: 10px;
+} 
+
+.container{
+    padding: 16px;
+    border-color: white;
+    margin: 30px;
+}
+
+.form{
+    border-color: aliceblue;
+    align-self: center;
+    margin: auto;
+}
+
+.asd{
+    padding: 6px 12px;
+    background: #f44336;
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    border-radius: 9px;
+    margin: 60px;
+}
+
+.asd:hover{
+    color:black;
+    transition: .2s;
+}
+
+.asdf{
+    color:yellow;
+    margin: 40px;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+}
+.menu ul{
+    list-style-type: none;
+}
+.menu ul li{
+    display: inline;
+}
+.menu ul li a{
+    text-decoration: none;
+}
+.btn{
+    /* background-color: #010200; */
+    color: white;
+    padding: 6px 12px;
+    font-size: 14px;
+    border-radius: 4px;
+    text-decoration: none;
+    /* margin-right: 10px;
+    margin-left: 500px; */
+}
+.btn-danger{
+    margin-left: 900px;
+}
+.btn-danger1{
+    margin-left: 30px;
+}
+.btn-danger2{
+    margin-left: 30px;
+}
+
+.footer{
+    height: 20vh;
+    background: #6B0F1A;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3px;
+}
